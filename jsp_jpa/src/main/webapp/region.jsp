@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : Jul 27, 2026, 3:27:10 PM
+    Document   : region
+    Created on : Jul 27, 2026, 4:04:18 PM
     Author     : minhloan
 --%>
 
@@ -12,6 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <a href="RegionController">Region Controller</a>
+        <h1>Hello World!</h1>
     </body>
 </html>
+        
