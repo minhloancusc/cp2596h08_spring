@@ -11,9 +11,18 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Categories</title>
+        <base href="${pageContext.request.contextPath}/" />
     </head>
     <body>
         <h1>Categories</h1>
+        <h2>Category Form</h2>
+        <form action="categories/save" method="post">
+            <input type="hidden" name="categoryID" value="${category.categoryID}" />
+            Name: <input type="text" name="categoryName" value="${category.categoryName}" required />
+            Desc: <input type="text" name="description" value="${category.description}" />
+            <input type="submit" value="Save" />
+        </form>
+
         <h3>List</h3>
         <table border="1">
             <tr><th>ID</th><th>Name</th><th>Description</th><th>Actions</th></tr>
